@@ -60,7 +60,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dj-chrome">
       <div className="App">
         <Nav />
         <Routes>

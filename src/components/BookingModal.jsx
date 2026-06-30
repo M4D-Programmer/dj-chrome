@@ -77,12 +77,12 @@ export default function BookingModal({ open, onClose, defaultDate = null }) {
             </label>
             <label>
               Event type
-              <select name="eventType" value={form.eventType} onChange={handleChange}>
-                <option>Wedding</option>
-                <option>Private party</option>
-                <option>Corporate event</option>
-                <option>Festival</option>
-                <option>Other</option>
+              <select className="eventSelections" name="eventType" value={form.eventType} onChange={handleChange}>
+                <option className="eventSelections">Wedding</option>
+                <option className="eventSelections">Private party</option>
+                <option className="eventSelections">Corporate event</option>
+                <option className="eventSelections">Festival</option>
+                <option className="eventSelections">Other</option>
               </select>
             </label>
             <label>
