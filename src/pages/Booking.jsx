@@ -28,7 +28,7 @@ export default function Booking({ onBook, config }){
       <h1>Booking</h1>
       <p>{config?.aboutText || 'Choose your date and see which days are already blocked for events.'}</p>
       <button className="btn" style={{ marginBottom: 20 }} onClick={onBook}>Request a Booking</button>
-      <Calendar blockedDates={blockedDates.length ? blockedDates : ['2026-07-04', '2026-07-12', '2026-07-18', '2026-08-02']} />
+      <Calendar blockedDates={blockedDates.length ? blockedDates : ['2026-07-05', '2026-08-22', '2026-08-30']} />
       <section style={{ marginTop: 32, color: '#ced7e0' }}>
         <h2>Upcoming reserved dates</h2>
         <ul>
